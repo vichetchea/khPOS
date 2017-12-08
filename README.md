@@ -18,7 +18,10 @@ In Khmer texts, words composed of single or multiple syllables are usually not s
   - Word Type 3: Compound Words with Prefix
   - Word Type 4: Compound Words with Suffix
 
-For the detail information of the word segmentation rules and how we built a Khmer word segmentation model, please refer to our published paper (see Publiation Section).
+For the detail information of the word segmentation rules and how we built a Khmer word segmentation model, please refer to following link: 
+  - Khmer Word Segmentation Tool at [http://niptict.edu.kh/khmer-word-segmentation-tool/]
+  - Demon at [http://rnd.niptict.edu.kh/seg/]
+  - Published paper at [http://niptict.edu.kh/wp-content/uploads/2016/05/Khmer-Word-Segmentation-Using-Conditional-Random-Fields-edit.pdf].
 
 ## POS Tags
 Part of speech is a category to which a word is assigned in accordance with its syntactic functions. In Khmer grammatical system, many linguists has defined their own POS according to their trend of research. Even though, many books are published, there are no standard agreement yet especially on number and name of POS tags. Comparing to English language, some English POS are not used in Khmer language, such as gerund, comparative and superlative adjectives, particle, etc. Based on CHOUN NATH dictionary, Khmer POS Tag set is defined. Some new POS tags that are not defined in the dictionary are added for considering word disambiguation task. Unlike English grammar, some Khmer sentences consist of more than one verb.
